@@ -81,7 +81,6 @@ android:name="com.orm.SugarApp">
   
 Após esse passo, o SugarOrm já está configurado e pronto para uso! 
 
-  áéíóú
 ## Utilização
 
 Para utilizar o SugarORM nos models do projeto, basta extender `SugarRecord` nas classes que devem ser persistidas. Isso faz com que as tabelas sejam criadas automaticamente, além de dar todas as operações para gerenciamento da entidade.
@@ -109,6 +108,8 @@ A realização das operações CRUD (Create, Read, Update e Delete) podem ser fe
 #### Exemplo de utilização do `delete()`:
 
 ![Alt text](https://github.com/marcel-reboucas/p3-tutorial-sugarorm/blob/master/screenshots/passo%2010.png "delete")
+
+###Isso é tudo! Comece já a usar o SugarORM :)
 
 
 
