@@ -88,11 +88,13 @@ public class DisplayContactActivity extends ActionBarActivity {
             case R.id.Delete_Contact:
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
                 builder.setMessage(R.string.deleteMessage)
                         .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 currentContact.delete();
                                 Toast.makeText(getApplicationContext(), "Contato removido com sucesso.", Toast.LENGTH_SHORT).show();
+
                                 Intent intent = new Intent(getApplicationContext(), ContantListActivity.class);
                                 startActivity(intent);
                             }
@@ -129,8 +131,10 @@ public class DisplayContactActivity extends ActionBarActivity {
                 startActivity(intent);
             }
             else{
+
                 Contact novoContato = new Contact(name.getText().toString(), phone.getText().toString());
                 novoContato.save();
+
                 Toast.makeText(getApplicationContext(), "Novo contato criado!", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(getApplicationContext(), ContantListActivity.class);
