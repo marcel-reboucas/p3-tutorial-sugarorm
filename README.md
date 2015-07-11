@@ -30,7 +30,7 @@ Basta adicionar o código
 compile 'com.github.satyan:sugar:1.3.1'
 ```
 
-ao arquivo build.gradle (app), na parte de dependencies, e executar o comando `gradle build` or `gradle assemble`.
+ao arquivo build.gradle (app), na parte de dependencies, e executar o comando `gradle build` ou `gradle assemble`.
 
 ![Alt text](https://github.com/marcel-reboucas/p3-tutorial-sugarorm/blob/master/screenshots/passo%202.png "gradle dependency")
 ![Alt text](https://github.com/marcel-reboucas/p3-tutorial-sugarorm/blob/master/screenshots/passo%203.png "execute gradle")
