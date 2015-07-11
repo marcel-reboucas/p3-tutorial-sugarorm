@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ContantListActivity">
+    <item android:id="@+id/item1"
+        android:icon="@drawable/additionicon"
+        android:title="@string/New_Contact"
+        android:showAsAction="ifRoom|withText">
+    </item>
+</menu>

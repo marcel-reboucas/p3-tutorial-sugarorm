@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SugarORMExample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="New_Contact">Novo contato</string>
+    <string name="title_activity_display_contact">Informacoes do Contato</string>
+    <string name="name">Nome</string>
+    <string name="phone">Telefone</string>
+    <string name="save">Salvar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Remover contato</string>
+    <string name="deleteMessage">Deseja realmente remover o contato?</string>
+    <string name="yes">Sim</string>
+    <string name="cancel">Cancelar</string>
+</resources>
